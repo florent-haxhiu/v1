@@ -1,11 +1,23 @@
+import { extendTheme } from "@chakra-ui/react"
 
-export default {
+const config = {
   initialColorMode: "light",
   useSystemColorMode: true,
+}
+
+const fonts = {
   semanticTokens: {
     font: {
-      heading: "font-family: 'Anaheim', sans-serif;",
-      para: "font-family: 'Share', cursive;"
+      Anaheim: "'Anaheim', sans-serif",
+      Share: "'Share', cursive",
+      Dosis: "'Dosis', sans-serif",
+      BenchNine: "'BenchNine', sans-serif",
+      Oxygen: "'Oxygen', sans-serif",
+      Kalam: "'Kalam', cursive"
     }
   }
 }
+
+const theme = extendTheme({ fonts, config })
+
+export default theme

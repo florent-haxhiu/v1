@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Container w={'full'} h={'80vh'} display={'flex'} flexDir={'column'} justifyContent={'center'} alignItems={'flex-start'}>
-        <Heading fontSize={'5rem'} fontFamily={'para'}>Hi, I&apos;m Florent</Heading>
+        <Heading fontSize={'5rem'} fontFamily={'Kalam'}>Hi, I&apos;m Florent</Heading>
         <Box display={'flex'} style={{ gap: '10px' }}>
           <a href="https://www.linkedin.com/in/florenthaxhiu/" target={'_blank'}>
             <IoLogoLinkedin className='main-logo' />
