@@ -19,10 +19,10 @@ const About = () => {
   
 
   return (
-    <Container h={'100vh'}>
-      <Heading>About Me</Heading>
+    <Container mt={5} h={'85vh'}>
+      <Heading pt={5}>About Me</Heading>
       <Box mt={12}>
-        <Glass>I'm Florent</Glass>
+        
       </Box>
     </Container>
   )
