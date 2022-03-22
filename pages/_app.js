@@ -1,7 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from './layout/main'
 import '../styles/main.scss'
-import theme from './theme/theme'
+import theme from '../styles/theme/theme'
 
 function MyApp({ Component, pageProps }) {
   return (
