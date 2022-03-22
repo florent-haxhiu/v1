@@ -79,6 +79,9 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
+          <LinkItem href='/contact'>
+            Contact Me
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/florent-haxhiu/v1"
